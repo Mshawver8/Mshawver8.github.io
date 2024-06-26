@@ -1,7 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic 8 Ball</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding-top: 20vh; }
+        button { padding: 10px 20px; font-size: 16px; }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <h1>Ask the Magic 8 Ball!</h1>
+    <button onclick="getAnswer()">Shake</button>
+    <p id="answer"></p>
+    <script>
+        function getAnswer() {
+            const responses = [
+                "Have you prayed about it?",
+                "Have you been to a meeting today?",
+                "Pray, read pages 86-88, and call me back ",
+                "You can't think your way into acting; you have to act your way into thinking.",
+                "What's your part in this?",
+                "Have you done a fourth step?",
+                "All you have to do is keep your sideof the street clean ",
+                "Pray, drink a hlass of water  eat something, and take a shower  and call me back."
+                "Pray, do some dishes, and call me back."
+          "Reach out to another alcoholic."
+          "Who can you help?"
+            ];
+            document.getElementById('answer').innerText = responses[Math.floor(Math.random() * responses.length)];
+        }
+    </script>
 </body>
 </html>
