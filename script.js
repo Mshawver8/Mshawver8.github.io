@@ -14,7 +14,7 @@ function showResponse() {
 
 "All you have to do is keep your side of the street clean.",
 
-"Pray, drink a glass of water eat something, and call me back.",
+"Pray, drink a glass of water, eat something, and call me back.",
 
 "Pray, do some dishes, and call me back.",
 
