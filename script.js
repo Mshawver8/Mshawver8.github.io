@@ -1,8 +1,8 @@
 function showResponse() {
     var responses = [
-        "Have you prayed about it?",
+        ""Have you prayed about it?"",
 
-"Have you been to a meeting today?",
+""Have you been to a meeting today?"",
 
 "Pray, read pages 86-88, and call me back ",
 
