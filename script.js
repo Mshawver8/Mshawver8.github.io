@@ -25,3 +25,16 @@ function showResponse() {
     var response = responses[Math.floor(Math.random() * responses.length)];
     document.getElementById('answer').innerText = response;
 }
+window.onload = function() {
+    // Check if the 'page_views' key exists in local storage
+    if (localStorage.getItem("page_views")) {
+        // If it exists, increase the count by 1
+        localStorage.setItem("page_views", Number(localStorage.getItem("page_views")) + 1);
+    } else {
+        // If it doesn't exist, set the count to 1
+        localStorage.setItem("page_views", 1);
+    }
+
+    // Display the count in the 'visitCount' element
+    document.getElementById("visitCount").innerText = localStorage.getItem("page_views");
+}
