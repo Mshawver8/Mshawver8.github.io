@@ -1,0 +1,1 @@
+This is a very simple "random responses" site, meant mainly as a joke, for recovery members. It randomly displays common sponsor responses when you click the button. I generated this code entirely myself, but with heavy assistance from ChatGPT. 
