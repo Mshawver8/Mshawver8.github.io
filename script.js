@@ -20,7 +20,9 @@ function showResponse() {
 
 "Reach out to another alcoholic.",
 
-"Have you thought about someone you can help?"
+"Have you thought about someone you can help?",
+        "You can't stay sober on someone else's spirituality.",
+        "have you talked to your higher power today?"
     ];
     var response = responses[Math.floor(Math.random() * responses.length)];
     document.getElementById('answer').innerText = response;
