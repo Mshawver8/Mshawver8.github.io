@@ -22,7 +22,7 @@ function showResponse() {
 
 "Have you thought about someone you can help?",
         "You can't stay sober on someone else's spirituality.",
-        "have you talked to your higher power today?"
+        "Have you talked to your higher power today?"
     ];
     var response = responses[Math.floor(Math.random() * responses.length)];
     document.getElementById('answer').innerText = response;
